@@ -31,7 +31,7 @@ This is not merely "teaching you to run your own cohort" — it is cultivating a
 | **Lesson 1** | [01-claude-code-from-zero.md](01-claude-code-from-zero.md) | From zero to using Claude Code | Terminal / AI collaboration basics | Get it installed, read your own de-identified cohort, produce a first analysis + figure |
 | **Lesson 2** | [02-using-claude-well.md](02-using-claude-well.md) | Using Claude Code well (skills / mindset) | Fundamentals of collaborating with an AI | Can ask well, use `/` commands, self-rescue, save outputs |
 | **Lesson 3** | [03-knowledge-externalization.md](03-knowledge-externalization.md) | Work habits = knowledge externalization ⭐ | Project management / documentation method | Each project has a CLAUDE.md; maintain PROGRESS / TODO |
-| **Lesson 4** | [04-git-and-phi.md](04-git-and-phi.md) | git / GitHub + data compliance (PHI) | Version control / collaboration / backup + data compliance | Can commit / push, understand versioning and backup, understand PHI rules |
+| **Lesson 4** | [04-git-and-phi.md](04-git-and-phi.md) | git / GitHub + data compliance (PHI) | Version control / collaboration / backup + data compliance | Can commit / push, understand versioning and backup, understand PHI rules, account joined the lab GitHub org |
 
 > Ordering logic: first **get it installed and running** (Lesson 1) → then **use it well** (Lesson 2, skills) → then **use it systematically** (Lesson 3, documentation habits) → then **use it safely and collaboratively / reproducibly** (Lesson 4, git + PHI). git carries the heaviest conceptual load, so it comes last; the full data-compliance discussion rides along with git (pushing to the cloud is exactly when it matters most).
 

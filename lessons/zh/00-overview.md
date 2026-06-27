@@ -24,14 +24,14 @@
 
 ---
 
-## 課程地圖（三堂）
+## 課程地圖（四堂 + 進階規劃）
 
 | 堂 | 檔案 | 主題 | 通用能力 | 結束帶走 |
 |----|------|------|---------|---------|
 | **第一堂** | [01-claude-code-from-zero.md](01-claude-code-from-zero.md) | 從零到會用 Claude Code | 終端機 / AI 協作入門 | 裝起來、讀自己的去識別 cohort、跑出第一份分析 + 圖 |
 | **第二堂** | [02-using-claude-well.md](02-using-claude-well.md) | 怎麼用 Claude Code 用得好（技巧 / 心法）| 跟 AI 協作的基本功 | 會問、會用 `/` 指令、會自救、懂存檔 |
 | **第三堂** | [03-knowledge-externalization.md](03-knowledge-externalization.md) | 工作習慣 = 知識外部化 ⭐ | 專案管理 / 文件方法論 | 各專案有 CLAUDE.md，會維護 PROGRESS / TODO |
-| **第四堂** | [04-git-and-phi.md](04-git-and-phi.md) | git / GitHub + 資料合規（PHI）| 版本控制 / 協作 / 備份 + 資料合規 | 會 commit / push、懂版本與備份、懂 PHI 規範 |
+| **第四堂** | [04-git-and-phi.md](04-git-and-phi.md) | git / GitHub + 資料合規（PHI）| 版本控制 / 協作 / 備份 + 資料合規 | 會 commit / push、懂版本與備份、懂 PHI 規範、帳號加入 lab GitHub 組織 |
 
 > 排序邏輯：先**裝起來會跑**（第一堂）→ 再**用得好**（第二堂技巧）→ 再**用得有系統**（第三堂文件習慣）→ 再**用得安全且可協作 / 可回溯**（第四堂 git + PHI）。git 概念負擔最重，故壓軸；資料合規完整版隨 git（push 上雲正是最該講的時機）。
 

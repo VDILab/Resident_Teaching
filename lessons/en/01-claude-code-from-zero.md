@@ -8,7 +8,7 @@
 
 ---
 
-## Chapter 0: Opening — The Terminal vs. the Chat Interface You Know
+## 1-1 Opening — The Terminal vs. the Chat Interface You Know
 
 > Purpose: build a bridge. Learners mentally compare this to the ChatGPT / Claude web app, so first make the difference clear and dispel the fear of "white text on a black screen."
 
@@ -27,11 +27,11 @@
 | **session** | one working conversation | one `claude` open-to-close = one session; within it, it remembers what you said — **close it and it forgets** (details in Lesson 2). |
 | **context** | the background / what it's tracking | what Claude "currently remembers" — the background you gave, files it read, what you discussed. **The clearer you are, the better it answers** (skills in Lesson 2). |
 
-> ⚠️ One easy mix-up: in Chapter 1 you'll see the terminal's "**prompt**" `username@mac ~ %` — English calls that a prompt too, but it's just the symbol meaning "the computer is waiting for you to type," **not the same thing as the "instruction you give" above** — the context makes it clear.
+> ⚠️ One easy mix-up: in 1-2 you'll see the terminal's "**prompt**" `username@mac ~ %` — English calls that a prompt too, but it's just the symbol meaning "the computer is waiting for you to type," **not the same thing as the "instruction you give" above** — the context makes it clear.
 
 ---
 
-## Chapter 1: iTerm2 — Set the Stage First
+## 1-2 iTerm2 — Set the Stage First
 
 > Purpose: let them understand what iTerm2 is, install it, and read the first screen.
 
@@ -44,7 +44,7 @@
 
 ---
 
-## Chapter 2: Install Claude Code Through the Terminal
+## 1-3 Install Claude Code Through the Terminal
 
 > Purpose: hands-on install of Claude. This is the first command the learner pastes, so **it must be correct**.
 
@@ -64,9 +64,9 @@ claude --version    # a version number = success
 claude doctor       # a more detailed health check (run this if it won't install)
 ```
 
-**Launch:** type `claude` and press Enter (details in Chapter 3).
+**Launch:** type `claude` and press Enter (details in 1-4).
 
-**⚠️ One prerequisite:** Claude Code requires a paid plan (**Pro / Max / Team**, etc.); the free Claude.ai plan can't use it (log in with your lab / personal seat → see Chapter 3's `/login`).
+**⚠️ One prerequisite:** Claude Code requires a paid plan (**Pro / Max / Team**, etc.); the free Claude.ai plan can't use it (log in with your lab / personal seat → see 1-4's `/login`).
 
 **Common snags:**
 
@@ -77,7 +77,7 @@ claude doctor       # a more detailed health check (run this if it won't install
 
 ---
 
-## Chapter 3: Run Claude Inside iTerm2
+## 1-4 Run Claude Inside iTerm2
 
 > Purpose: launch + log in + see the conversation mode.
 
@@ -100,11 +100,11 @@ Press Enter. The first launch walks you through login.
 
 **3. What it looks like after launch** — the screen enters **Claude's conversation mode** (an input box, prompting you to type) → now just type in your own language and talk to it.
 
-> Quick tip: from now on, each use is just two steps — "`cd` into your folder (Chapter 4) → type `claude`."
+> Quick tip: from now on, each use is just two steps — "`cd` into your folder (1-5) → type `claude`."
 
 ---
 
-## Chapter 4: Let Claude See Your Folder (the Most Critical Chapter)
+## 1-5 Let Claude See Your Folder (the Most Critical Section)
 
 > Purpose: dispel the web-app misconception of "loading a folder" and build the correct mental model for Claude Code. This is what learners get stuck on most and should understand first.
 
@@ -143,7 +143,7 @@ Press Enter. The first launch walks you through login.
 
    > Read `my_cohort.csv` in this folder and tell me how many rows, how many columns, and the missing count per column.
 
-3. Hit the permission prompt (see Chapter 4.5) → teach them to approve → Claude actually reads the file.
+3. Hit the permission prompt (see 1-6) → teach them to approve → Claude actually reads the file.
 4. One step further, type:
 
    > Do descriptive statistics, and plot the age distribution as a histogram saved as `age_dist.png`.
@@ -158,7 +158,7 @@ Press Enter. The first launch walks you through login.
 
 ---
 
-## Chapter 4.5: Granting Access — You'll Hit This on the First File Read
+## 1-6 Granting Access — You'll Hit This on the First File Read
 
 > Purpose: the first time a learner asks it to read a file, two gates appear; not understanding them is scary / leads to random clicking. Teach this chapter at the moment of the first task (the prompt appears right then).
 > Order of gates: first the macOS system permission (B), then Claude's per-action prompt (A).

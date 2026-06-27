@@ -24,13 +24,11 @@
 
 ---
 
-## Chapter Sketch
-
-### 3-1 Why You Need It
+## 3-1 Why You Need It
 
 - Re-enact "close it and it forgets" → make the pain concrete → solution: externalize memory into files.
 
-### 3-2 CLAUDE.md (the Project Briefing)
+## 3-2 CLAUDE.md (the Project Briefing)
 
 - Put it in the project root; Claude reads it automatically when entering the folder.
 - What goes in: research topic / where the data is / which tools / special rules (e.g., your cohort definition, a special grouped-modeling logic).
@@ -65,7 +63,7 @@
 
 > Rule: **only stable facts and rules go here**; to-dos go in TODO, history goes in PROGRESS (below).
 
-### 3-3 PROGRESS.md (the Notebook)
+## 3-3 PROGRESS.md (the Notebook)
 
 - After finishing a chunk, tell Claude "log what I did today into PROGRESS."
 - Use = cross-session memory + recalling "how I handled this back then" when writing the paper.
@@ -88,7 +86,7 @@
 
 - Closing ritual: tell Claude "**log today's work into PROGRESS.md**" and it appends automatically.
 
-### 3-4 TODO.md (the To-do Whiteboard)
+## 3-4 TODO.md (the To-do Whiteboard)
 
 - P0 (must-do) / P1 (secondary) prioritization.
 - Collaborating with your supervisor: they read your TODO and immediately see where you're stuck (mirrors the lab's periodic progress report).
@@ -108,11 +106,11 @@
 - [ ] Draw a forest plot
 ```
 
-### 3-5 Tying the Habits Together
+## 3-5 Tying the Habits Together
 
 - A full project rhythm = set up CLAUDE.md → do the work → at the close, have it update PROGRESS / TODO → pick up seamlessly next time.
 
-### 3-6 The Close — a Benefit You'll Gradually Discover (the by-product)
+## 3-6 The Close — a Benefit You'll Gradually Discover (the by-product)
 
 > The main line is done (solving "Claude forgets"). In the last minute, reveal the deeper value so it lands as a bonus, not a burden.
 

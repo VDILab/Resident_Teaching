@@ -6,7 +6,7 @@
 
 ---
 
-## Teach git with a "General Framework," Not Bound to Research
+## 4-1 Teach git with a "General Framework," Not Bound to Research
 
 - `commit` = a save point / time machine (any project can return to any past version).
 - `push` / `pull` = cloud backup + multi-machine / multi-person sync.
@@ -15,7 +15,7 @@
 
 ---
 
-## First, a GitHub Account + First-Time Login
+## 4-2 First, a GitHub Account + First-Time Login
 
 > To push, you first need "a home in the cloud" + "proof that you are you." Beginners often get stuck here — they can type the git commands but hit an authentication wall on the first push. This chapter smooths it out.
 
@@ -48,7 +48,7 @@
 
 ---
 
-## 🔴 Core Rule: What Goes Into git, What Doesn't
+## 4-3 🔴 Core Rule: What Goes Into git, What Doesn't
 
 > Teach this as the **core rule** of the git lesson, not a footnote — it's a general notion of "what belongs in version control," highly educational for researchers.
 
@@ -67,7 +67,7 @@
 
 ---
 
-## `.gitignore` — Turn the Policy Above Into a File
+## 4-4 `.gitignore` — Turn the Policy Above Into a File
 
 > Policy (what stays out of git) → operation (how to actually block it). A `.gitignore` is simply a list of "git, please ignore these," placed in the project root.
 
@@ -108,7 +108,7 @@ __pycache__/
 
 ---
 
-## Data Compliance (PHI) — Lesson 1 Gave the Bottom Line; Here We Expand
+## 4-5 Data Compliance (PHI) — Lesson 1 Gave the Bottom Line; Here We Expand
 
 - Pushing to GitHub = public / semi-public cloud, so "data stays out of git" is simultaneously a version-control best practice and a privacy safeguard.
 - Key points:
@@ -119,11 +119,34 @@ __pycache__/
 
 ---
 
+## 4-6 Join the Lab's GitHub Organization (VDI Lab)
+
+> In 4-2 you created your own GitHub account. The final step: add that account to the lab's organization, so you can see the lab's shared repos (teaching materials, shared tools, team projects).
+> **This section goes only as far as "successfully joined, can see the lab repos."** The actual collaboration operations (how to push changes back to a shared repo) involve branches / pull requests, which are beyond this lesson's minimal scope — we'll teach those when you actually need to collaborate.
+
+- **What a GitHub Organization is**: a team space that groups multiple people's repos together. VDI Lab's org is [`github.com/VDILab`](https://github.com/VDILab). Once you join, the lab's shared repos show up in the lists visible to your account.
+
+**How to join (three steps, follow along):**
+
+1. **Give your GitHub username to your supervisor** — the one you registered in 4-2 (the last part of your profile URL `github.com/your-account`).
+2. **Your supervisor sends an invite** — the lab owner adds you from the org's admin panel; the invite goes to the email you registered with GitHub.
+3. **Check your email → Accept the invitation** — click the link in the email (or use the accept banner at the top of the [github.com/VDILab](https://github.com/VDILab) page) and click **Accept invitation**.
+
+**Confirm you've joined:**
+
+- Go to [github.com/VDILab](https://github.com/VDILab); if you're a member, you'll see the list of repos under the org (e.g., the public teaching repo).
+- Or in the account / org switcher menu at the top-left of your own GitHub home, **VDILab** will appear.
+
+> ⚠️ The red lines from 4-3 / 4-5 still hold: **joining the org ≠ permission to push data up**. A lab repo, just like a personal one, holds only code + docs; de-identified data and PHI never go into any repo (personal or org).
+
+---
+
 ## End of Lesson 4 — What the Learner Takes Away
 
 - Can commit / push / pull, understands versioning and cloud backup.
 - Can use `.gitignore` to exclude data, understands "code goes into git, data does not."
 - Understands the basic red lines of PHI and data compliance.
+- Account has joined the lab's GitHub organization (VDILab), can see the shared repos.
 
 ---
 
@@ -131,7 +154,7 @@ __pycache__/
 
 - [x] ✅ Teach git via GitHub (create account + `gh auth login`), not purely local.
 - [ ] Merge the full PHI version into Lesson 4 / or split it into a separate lesson (depending on Lesson 4's weight).
-- [ ] Whether to add an "join a lab / organization GitHub Org for collaboration" advanced section (team collaboration, beyond the individual basics).
+- [x] ✅ Add "join the lab GitHub Org" to Lesson 4 (4-6, only up to joining + seeing repos; collaboration ops branch/PR deferred).
 
 ---
 

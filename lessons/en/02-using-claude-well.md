@@ -112,7 +112,7 @@
 
 - **An error message you don't understand**: just copy the whole thing back into the chat and ask "what does this mean, how do I fix it" — it's good at interpreting its own errors.
 - **Wrong answer / not what you wanted**: don't restart — just follow up: "no, I wanted X, you just did Y" — give it more context to correct.
-- **Truly stuck** (quota, login, won't install): check the [official docs](https://docs.claude.com/en/docs/claude-code/overview), or ask your supervisor.
+- **Truly stuck** (quota, login, won't install): check the [official docs](https://code.claude.com/docs/en/overview), or ask your supervisor.
 
 ---
 
